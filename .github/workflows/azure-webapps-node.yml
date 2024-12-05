@@ -23,8 +23,8 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_WEBAPP_NAME: your-app-name    # set this to your application's name
-  AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
+  AZURE_WEBAPP_NAME: devops1          # set this to your application's name
+  AZURE_WEBAPP_PACKAGE_PATH: 'https://portal.azure.com/#@vinci.be/resource/subscriptions/557e95c3-0ff9-49b3-9402-90a7771679d5/resourceGroups/devops1/providers/Microsoft.Web/sites/devops1/appServices'      # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: '20.x'                # set this to the node version to use
 
 permissions:
